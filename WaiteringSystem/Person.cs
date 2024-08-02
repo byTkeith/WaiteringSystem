@@ -26,8 +26,8 @@ namespace WaiteringSystem
             set { name = value; } 
         }
 
-        public string Name 
-            { 
+        public string GetName
+        {
             get { return name; }
             set { id = value; }
 
@@ -40,5 +40,21 @@ namespace WaiteringSystem
         #endregion
 
         //region for constructors
+        #region Constructors
+        public Person() { 
+        }
+
+        public Person(string id, string name, int phone) { 
+            this.id = id;
+            this.name = name;
+            this.phone = phone;
+        }
+        #endregion
+
+        public override string ToString() {
+            return $"Name:{Name},Phone: {Phone}";
+        }
+
+
     }
 }
