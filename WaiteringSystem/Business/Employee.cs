@@ -24,7 +24,7 @@ namespace WaiteringSystem.Business
                     Role = new HeadWaiter();
                     break;
                 case Role.RoleType.Waiter:
-                    Role = new Waiter;
+                    Role = new Waiter();
                     break;
                 case Role.RoleType.Runner:
                     Role = new Runner();

@@ -11,7 +11,7 @@ namespace WaiteringSystem
         #region Data Members
         private string id;
         private string name;
-        private int phone;
+        private string phone;
         #endregion
 
         //region for properties
@@ -26,14 +26,7 @@ namespace WaiteringSystem
             set { name = value; } 
         }
 
-        public string GetName
-        {
-            get { return name; }
-            set { id = value; }
-
-        }
-
-        public int Phone { 
+        public string Phone { 
             get { return phone; }
             set { phone = value; }
         }
@@ -44,7 +37,7 @@ namespace WaiteringSystem
         public Person() { 
         }
 
-        public Person(string id, string name, int phone) { 
+        public Person(string id, string name, string phone) { 
             this.id = id;
             this.name = name;
             this.phone = phone;
