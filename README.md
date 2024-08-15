@@ -49,5 +49,5 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
-For any inquiries or issues, please contact the project maintainer.
+For any inquiries or issues, please contact me.
 
